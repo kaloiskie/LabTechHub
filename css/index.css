@@ -1,0 +1,48 @@
+.laptoplogo {
+    width: 100%;
+}
+
+.sidepromo {
+    max-width: 900px;
+    height: auto;
+    margin-top: 10px;
+    margin: 0px;
+}
+
+.col-sm-9,
+.col-sm-3 {
+    border: 1px solid grey;
+}
+
+.laptop {
+    max-width: 350px;
+    height: auto;
+}
+
+body {
+    font-family: Armata;
+    border: 1px solid grey;
+}
+
+.logoname {
+    color: gray;
+    font-size: 12px;
+    padding-left: 10px;
+}
+
+.imagelogo {
+    max-width: 80px;
+    height: auto;
+}
+
+.containerscrolldown {
+    height: 50%;
+}
+
+.btn {
+    background-color: skyblue;
+}
+
+.navtext {
+    color: grey;
+}

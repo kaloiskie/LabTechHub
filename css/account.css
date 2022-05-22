@@ -1,0 +1,53 @@
+.laptoplogo {
+    width: 400px;
+}
+
+.sidepromo {
+    max-width: 900px;
+    height: auto;
+    margin-top: 10px;
+    margin: 0px;
+}
+
+.laptop {
+    max-width: 350px;
+    height: auto;
+}
+
+body {
+    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, 文泉驛正黑, "WenQuanYi Zen Hei", "Hiragino Sans GB", "儷黑 Pro", "LiHei Pro", "Heiti TC", 微軟正黑體, "Microsoft JhengHei UI", "Microsoft JhengHei", sans-serif;
+}
+
+.logoname {
+    color: gray;
+    font-size: 12px;
+    padding-left: 10px;
+}
+
+.imagelogo {
+    max-width: 100px;
+    height: auto;
+}
+
+.containerscrolldown {
+    height: 50%;
+}
+
+.btn {
+    background-color: skyblue;
+}
+
+.navtext {
+    color: grey;
+}
+
+
+/* navbar css */
+
+.mainlogo {
+    width: 250px;
+    height: 185px;
+    padding: 0px;
+    margin-left: 80px;
+    margin-right: 50px;
+}
