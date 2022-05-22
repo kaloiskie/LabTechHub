@@ -3,18 +3,18 @@
 <div class="row">
     <div class="col-sm-3" style="border: none;">
             <!-- Brand/logo -->
-
+<center>
   <a class="navbar-brand " href="<?php 
             if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                 "index.php";
             }else{echo "home.php";}
             ?>">
     <img src="admin/image/LOGO.png" alt="logo" style="width:100px;">
-  </a>
+  </a></center>
     </div>
   
   <!-- Links -->
-        <div class="col-sm-6" style="width:700px">
+        <div class="col-sm-6" style="width:100%">
             <div class="row">
                 <div class="col">
                 |<a href="home.php" style="padding-left: 4px;"><span class="navtext">HOME</span></a>
@@ -86,8 +86,11 @@
                 </div>
             </div>
             <div class="row">
+         
                 <div class="col-sm-12">
+                <center>
                 <a href="cart.php"><i class="fa fa-cart-arrow-down" style="font-size:90px;color:grey"></i></a>                        
+                </center>
             </div>
               <div class="row">
                                             <div class="col-sm"style="height: 60px;">
@@ -98,3 +101,4 @@
         </div>  
   </div>
 </nav>
+<div  style="margin-top: 20px;"></div>

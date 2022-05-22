@@ -51,8 +51,9 @@ require_once "AddOns/retrieve_product_available.php";
     </style>
 </head>
 <body>
-<?php require_once "AddOns/navbar2.0.php"; ?>
-    <div class="row" style="margin-top: 150px;">
+<?php include "AddOns/checkResolution.php";?>
+<?php include "AddOns/changeNavbar.php"?>
+    <div class="row">
         <div class="col-sm-3">
             <div class="tableFixHead">
             <table>

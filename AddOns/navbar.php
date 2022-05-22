@@ -1,4 +1,4 @@
-<div class="navbarLogRis fixed-top" style=" height:140px; background-color: #000E12;">
+<div class="navbarLogRis" style=" height:140px; background-color: #000E12;">
         <div class="row" style="margin-top:-3px; height: 140px;">
             <a  style="height: 140px;" href="<?php 
             if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
